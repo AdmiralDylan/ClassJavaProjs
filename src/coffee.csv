@@ -1,12 +1,12 @@
-Colombia,Finca El Paraiso,"Piendamo,Cauca",Double Anaerobic Washed,8.58,8.5,8.42,8.58,8.25,8.42,8.58
+Colombia,Finca El Paraiso,Piendamo;Cauca,Double Anaerobic Washed,8.58,8.5,8.42,8.58,8.25,8.42,8.58
 Costa Rica,Gamboa Farm,Tarrazu,Washed / Wet,7.58,7.83,7.5,7.67,7.83,7.67,8.58
 Laos,OKLAO coffee farms,Laos Borofen Plateau,Semi Washed,8.33,8.42,8.08,8.17,7.92,8.17,8.33
-Colombia,Finca Santuario,"Popayan,Cauca","Honey,Mossto",8.33,8.33,8.08,8.25,7.92,7.92,8.25
+Colombia,Finca Santuario,Popayan;Cauca,Honey;Mossto,8.33,8.33,8.08,8.25,7.92,7.92,8.25
 Guatemala,La Colina,Chimaltenango,Washed / Wet,8.33,8.33,8.25,7.83,7.83,8.17,8.25
-Costa Rica,La Cumbre,"Los Santos,Tarrazu",Washed / Wet,8.08,8.17,8.17,8.25,8.17,8.08,8.25
-Guatemala,Finca Vista Hermosa,"Guatemala, Fraijanes, Santa Rosa",Natural / Dry,8,7.92,8.08,7.92,7.75,8,8.08
+Costa Rica,La Cumbre,Los Santos;Tarrazu,Washed / Wet,8.08,8.17,8.17,8.25,8.17,8.08,8.25
+Guatemala,Finca Vista Hermosa,Guatemala; Fraijanes; Santa Rosa,Natural / Dry,8,7.92,8.08,7.92,7.75,8,8.08
 Thailand,Hom Doi,Chiang Mai,Pulped natural / honey,7.67,8,7.83,8,8.08,8,8.08
-Ethiopia,Halo Bariti Cooprative,"Gedeb,Yirgacheffe,Sidamo",Washed / Wet,8.17,8.08,7.92,8.17,7.75,7.92,8.08
+Ethiopia,Halo Bariti Cooprative,Gedeb;Yirgacheffe;Sidamo,Washed / Wet,8.17,8.08,7.92,8.17,7.75,7.92,8.08
 Nicaragua,Finca Las Dos Marias,ESTELI,Natural / Dry,7.92,7.75,7.67,7.67,7.83,7.75,8
 Ethiopia,Gelana Geisha,Guji,Natural / Dry,7.67,8.17,8,8.33,8,8,8
 Guatemala,Karen Acajabon Coffee Farm,Acatenango,Natural / Dry,8.08,8,8,7.75,8.25,8.17,8
@@ -14,23 +14,23 @@ Ethiopia,TADE GG,Guji,Natural / Dry,8.08,8.25,8,8.08,7.92,7.92,8
 Ethiopia,Eshetu farm,Oromia,Washed / Wet,7.67,7.83,7.83,8,8,8,8
 United States (Hawaii),Hokukano Ranch,Kona,Washed / Wet,8,7.92,8,7.83,7.67,8,8
 Colombia,La Gaitania,tolima,Washed / Wet,8.08,8,8.08,7.92,8.08,8,8
-"Tanzania, United Republic Of",MASHIMA AMCOS,KILIMANJARO,Washed / Wet,8.08,8.17,8.08,8.17,8,8,8
+Tanzania; United Republic Of,MASHIMA AMCOS,KILIMANJARO,Washed / Wet,8.08,8.17,8.08,8.17,8,8,8
 Vietnam,CupnCare,Quang Tri,Natural / Dry,8,7.83,7.75,7.67,7.58,7.83,7.92
-"Tanzania, United Republic Of",BURKA,Arusha,Washed / Wet,8.17,8,7.92,7.92,8.17,7.75,7.92
+Tanzania; United Republic Of,BURKA,Arusha,Washed / Wet,8.17,8,7.92,7.92,8.17,7.75,7.92
 Uganda,Gideon Kule,Rwenzori,Washed / Wet,8,7.92,7.75,7.75,7.75,7.92,7.92
-Costa Rica,La Cumbre,"Los Santos,Tarrazu",Washed / Wet,7.75,7.83,7.67,7.83,7.75,7.75,7.92
-Guatemala,san francisco cotzal,quiche,Washed / Wet,7.83,7.92,7.75,8,7.75,7.75,7.92
+Costa Rica,La Cumbre,Los Santos Tarrazu,Washed / Wet,7.75,7.83,7.67,7.83,7.75,7.75,7.92
+Guatemala,san francisco cotzal,Quiche,Washed / Wet,7.83,7.92,7.75,8,7.75,7.75,7.92
 Brazil,Fazenda Guariroba,Campo das Vertentes,Double Carbonic Maceration / Natural,7.83,7.92,7.75,7.92,7.67,7.83,7.83
 Guatemala,SAN RAFAEL URIAS VALDES,ANTIGUA GUATEMALA,Natural / Dry,7.83,8,7.67,7.83,7.75,7.75,7.83
 Ethiopia,Uraga Bisrat washing station,Southern Ethiopia Guji,Natural / Dry,8,8.08,8,8,7.67,7.75,7.83
 Colombia,Asociacion Tayronaca,Sierra Nevada de Santa Marta,Washed / Wet,7.75,7.75,7.75,7.75,7.83,7.67,7.83
-"Tanzania, United Republic Of",IYENGA,Mbeya,Washed / Wet,7.92,7.75,7.75,7.92,7.83,7.83,7.83
+Tanzania; United Republic Of,IYENGA,Mbeya,Washed / Wet,7.92,7.75,7.75,7.92,7.83,7.83,7.83
 Panama,La Santa,Boquete,Washed / Wet,7.83,7.83,7.75,7.92,7.83,7.75,7.83
 Madagascar,Mandroso,Itasy,Washed / Wet,7.92,7.92,7.58,7.75,7.58,7.67,7.83
 Guatemala,PEÑA BLANCA,Santa Rosa,Washed / Wet,7.67,8,7.75,7.92,8,7.83,7.83
 Ethiopia,TRACON TRADING PLC,Ethiopia,Washed / Wet,7.92,7.83,7.75,7.92,7.58,7.67,7.83
 Ethiopia,YHAENU PLC FARM,OROMIA,Washed / Wet,7.92,7.75,7.83,8.17,8,7.75,7.83
-Indonesia,"Lintong Nihuta/Dolok Sanggul,Sumatera Utara","Lintong Nihuta/Dolok Sanggul,Sumatera Utara",Wet Hulling,7.67,7.67,7.83,7.83,7.67,7.75,7.83
+Indonesia,Lintong Nihuta/Dolok Sanggul;Sumatera Utara,Lintong Nihuta/Dolok Sanggul;Sumatera Utara,Wet Hulling,7.67,7.67,7.83,7.83,7.67,7.75,7.83
 Thailand,Baan San Charoen,Nan,Natural / Dry,7.75,7.67,7.58,7.75,7.75,7.67,7.75
 Ethiopia,Bisrat Melaku Washing Station,Addis Ababa,Natural / Dry,7.83,7.75,7.58,7.92,8,7.5,7.75
 Guatemala,El Morito,New Oriente,Natural / Dry,7.83,7.83,7.58,7.67,7.67,7.58,7.75
@@ -41,20 +41,19 @@ Guatemala,Finca Alta Luz,Huehuetenango,Washed / Wet,7.67,7.83,7.75,7.75,7.83,7.7
 Mexico,Finca Custepec,Chiapas,Washed / Wet,7.67,7.67,7.58,7.67,7.83,7.58,7.75
 Costa Rica,Gamboa Farm,Tarrazu,Washed / Wet,7.67,7.92,7.58,7.75,7.67,7.58,7.75
 Ethiopia,Gerbicho Lela Cooperative,Sidama,Washed / Wet,7.83,7.67,7.5,7.92,7.5,7.67,7.75
-"Tanzania, United Republic Of",KONGONI ESTATE,ARUSHA,Washed / Wet,7.58,7.67,7.75,7.75,7.75,7.75,7.75
-Honduras,La Cuchilla,"Centro, Lagunetillas-Ajuterique, Comayagua",Washed / Wet,7.83,7.92,7.75,7.75,7.75,7.75,7.75
-Honduras,La Cuchilla,"Centro, Lagunetillas-Ajuterique, Comayagua",Washed / Wet,7.75,7.75,7.58,7.83,7.75,7.75,7.75
-"Tanzania, United Republic Of",MASHIMA AMCOS,KILIMANJARO,Washed / Wet,7.75,7.58,7.58,7.92,7.67,7.75,7.75
+Tanzania; United Republic Of,KONGONI ESTATE,ARUSHA,Washed / Wet,7.58,7.67,7.75,7.75,7.75,7.75,7.75
+Honduras,La Cuchilla,Centro; Lagunetillas-Ajuterique; Comayagua,Washed / Wet,7.83,7.92,7.75,7.75,7.75,7.75,7.75
+Tanzania; United Republic Of,MASHIMA AMCOS,KILIMANJARO,Washed / Wet,7.75,7.58,7.58,7.92,7.67,7.75,7.75
 United States (Hawaii),Miranda's Farm,Ka'u district of Big Island,Washed / Wet,7.92,7.83,7.75,7.92,7.5,7.67,7.75
 Peru,Ruya Yayu Farm,Villa Rica,Washed / Wet,8,8,7.83,7.83,7.58,7.83,7.75
 Guatemala,san francisco cotzal,quiche,Washed / Wet,7.58,7.92,7.58,7.83,7.75,7.67,7.75
 Guatemala,SAN FRANCISCO COTZAL,QUICHE,Washed / Wet,7.58,7.83,7.58,7.67,7.58,7.58,7.75
-Guatemala,San jose del lago,Atitlán,Washed / Wet,7.58,7.92,7.67,7.75,7.83,7.75,7.75
-Guatemala,San jose del lago,Atitlán,Washed / Wet,7.58,7.83,7.58,7.75,7.67,7.75,7.75
+Guatemala,San jose del lago,Atitlain,Washed / Wet,7.58,7.92,7.67,7.75,7.83,7.75,7.75
+Guatemala,San jose del lago,Atitlain,Washed / Wet,7.58,7.83,7.58,7.75,7.67,7.75,7.75
 Guatemala,SAN RAFAEL URIAS VALDES,ANTIGUA GUATEMALA,Washed / Wet,7.58,7.92,7.5,7.67,7.75,7.67,7.75
 Brazil,Fazenda Conquista e Capoeirinha,Sul de Minas,Natural / Dry,7.58,7.5,7.5,7.83,7.67,7.5,7.67
-Honduras,Maria Bonita,"San Jose, La Paz",Natural / Dry,7.67,7.67,7.58,7.75,7.67,7.67,7.67
-Honduras,finca de la casa,"San Andr�s, Lempira",Pulped natural / honey,7.75,7.75,7.75,7.67,7.75,7.67,7.67
+Honduras,Maria Bonita,San Jose; La Paz,Natural / Dry,7.67,7.67,7.58,7.75,7.67,7.67,7.67
+Honduras,finca de la casa,San Andreas; Lempira,Pulped natural / honey,7.75,7.75,7.75,7.67,7.75,7.67,7.67
 El Salvador,San Nicolas,Chalatenango,Pulped natural / honey,7.83,7.83,7.83,7.83,7.67,7.67,7.67
 Colombia,COO,Huila,Washed / Wet,7.67,7.83,7.58,7.92,7.67,7.67,7.67
 Thailand,Doi Nan,Suan Ya Lung,Washed / Wet,7.67,7.67,7.5,7.67,7.58,7.67,7.67
@@ -63,24 +62,24 @@ Uganda,Masereka William,Rwenzori,Washed / Wet,7.75,7.67,7.58,7.5,7.67,7.5,7.67
 Ethiopia,YHAENU PLC FARM,OROMIA,Washed / Wet,7.42,7.42,7.42,8,7.92,7.67,7.67
 Myanmar,Aromatic,South Shan State,Natural / Dry,7.83,7.83,7.67,7.58,7.58,7.58,7.58
 Thailand,Kevin Coffee,Chiang Mai,Natural / Dry,7.5,7.58,7.5,7.42,7.5,7.58,7.58
-Laos,Nongluang Bolaven Plateau,"Nongluang Bolaven Plateau, Champasack, Lao PDR",Natural / Dry,7.67,7.75,7.33,7.67,7.58,7.5,7.58
+Laos,Nongluang Bolaven Plateau,Nongluang Bolaven Plateau; Champasack; Lao PDR,Natural / Dry,7.67,7.75,7.33,7.67,7.58,7.5,7.58
 Colombia,La Gallera,Tolima,Pulped natural / honey,7.67,7.92,7.67,7.58,7.67,7.67,7.58
 Vietnam,Apollo Estate,Dalat,Washed / Wet,7.5,7.5,7.33,7.5,7.5,7.42,7.58
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.42,7.83,7.58,7.67,7.67,7.75,7.58
 Colombia,El Laurel,Sierra Nevada de Santa Marta,Washed / Wet,7.67,7.67,7.42,7.75,7.5,7.75,7.58
 Colombia,La Argentina,Quindio,Washed / Wet,7.58,7.5,7.5,7.67,7.58,7.5,7.58
-Honduras,La Cuchilla,"Centro, Lagunetillas - Ajuterique, Comayagua",Washed / Wet,7.67,7.67,7.5,7.58,7.58,7.5,7.58
-Colombia,La fortaleza,Popayán Cauca,Washed / Wet,7.75,7.75,7.5,7.58,7.83,7.5,7.58
-Colombia,Buenos Aires,Quindio,Anaerobico 1000h,7.67,7.67,7.58,7.67,7.58,7.58,7.5
-Honduras,Bethel,"Los Planes de Santa Maria, La Paz",Washed / Wet,7.75,7.58,7.58,7.58,7.58,7.5,7.5
+Honduras,La Cuchilla,Centro; Lagunetillas - Ajuterique; Comayagua,Washed / Wet,7.67,7.67,7.5,7.58,7.58,7.5,7.58
+Colombia,La fortaleza,Popayain Cauca,Washed / Wet,7.75,7.75,7.5,7.58,7.83,7.5,7.58
+Colombia,Buenos Aires,Quindio,Anaerobic 1000h,7.67,7.67,7.58,7.67,7.58,7.58,7.5
+Honduras,Bethel,Los Planes de Santa Maria; La Paz,Washed / Wet,7.75,7.58,7.58,7.58,7.58,7.5,7.5
 Honduras,Bethel,los planes de santa maria la paz,Washed / Wet,7.67,7.58,7.33,7.5,7.58,7.5,7.5
-Colombia,Federaci�n Nacional de Cafeteros de Colombia,Huila,Washed / Wet,7.58,7.67,7.58,7.5,7.33,7.5,7.5
-Mexico,Finca Tequihua,"ZONGOLICA, VERACRUZ",Washed / Wet,7.75,7.5,7.42,7.67,7.58,7.5,7.5
+Colombia,Federacionn Nacional de Cafeteros de Colombia,Huila,Washed / Wet,7.58,7.67,7.58,7.5,7.33,7.5,7.5
+Mexico,Finca Tequihua,ZONGOLICA; VERACRUZ,Washed / Wet,7.75,7.5,7.42,7.67,7.58,7.5,7.5
 United States (Hawaii),Kainaliu Farm,Kona,Washed / Wet,7.33,7.58,7.5,7.5,7.5,7.58,7.5
 Kenya,Kenyan Highlands,Kericho,Washed / Wet,7.5,7.5,7.42,7.5,7.25,7.5,7.5
-Honduras,La Bendicion,"Marcala, La Paz",Washed / Wet,7.67,7.75,7.67,7.58,7.5,7.58,7.5
-Honduras,La Cuchilla,"Centro, Lagunetillas - Ajuterique, Comayagua",Washed / Wet,7.58,7.58,7.33,7.5,7.58,7.42,7.5
-"Tanzania, United Republic Of",MASHIMA AMCOS,KILIMANJARO,Washed / Wet,7.92,7.67,7.42,7.5,7.67,7.58,7.5
+Honduras,La Bendicion,Marcala; La Paz,Washed / Wet,7.67,7.75,7.67,7.58,7.5,7.58,7.5
+Honduras,La Cuchilla,Centro; Lagunetillas - Ajuterique; Comayagua,Washed / Wet,7.58,7.58,7.33,7.5,7.58,7.42,7.5
+Tanzania; United Republic Of,MASHIMA AMCOS,KILIMANJARO,Washed / Wet,7.92,7.67,7.42,7.5,7.67,7.58,7.5
 Guatemala,MI CAFECITO & LA PROVIDENCIA,NEW ORIENTE & HUEHUETENANGO,Washed / Wet,7.5,7.75,7.58,7.75,7.67,7.58,7.5
 Costa Rica,San Diego Mill,Corralillo Tarrazu,Washed / Wet,7.42,7.42,7.42,7.33,7.58,7.33,7.5
 Costa Rica,AMA EL AROMA Micro lot - Sunrise,west Villege,Pulped natural / honey,7.33,7.5,7.25,7.92,7.75,7.58,7.42
@@ -89,29 +88,28 @@ Indonesia,Wahana Graha Makmur,Sumatra,Pulped natural / honey,7.67,7.33,7.25,7.67
 El Salvador,Agua Caliente,Apaneca - Ilamatepec,Washed / Wet,7.5,7.5,7.42,7.42,7.42,7.67,7.42
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.17,7.92,7.58,7.5,7.58,7.67,7.42
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.17,7.5,7.42,7.42,7.58,7.5,7.42
-Nicaragua,Finca Aurora,"Matagalpa, Nicaragua",Washed / Wet,7.58,7.58,7.42,7.42,7.5,7.5,7.42
+Nicaragua,Finca Aurora,Matagalpa; Nicaragua,Washed / Wet,7.58,7.58,7.42,7.42,7.5,7.5,7.42
 Nicaragua,Finca Las Dos Marias,ESTELI,Washed / Wet,7.5,7.58,7.42,7.58,7.5,7.58,7.42
 Panama,Finca Lerida,Boquete,Washed / Wet,7.75,7.67,7.17,7.67,7.42,7.42,7.42
-Peru,Fundo La Libertad,"Chanchamayo, La Merced",Washed / Wet,7.5,7.5,7.33,7.5,7.33,7.33,7.42
-Peru,Fundo La Libertado,"Chanchamayo, La Merced",Washed / Wet,7.67,7.5,7.33,7.58,7.33,7.42,7.42
+Peru,Fundo La Libertad,Chanchamayo; La Merced,Washed / Wet,7.5,7.5,7.33,7.5,7.33,7.33,7.42
 Costa Rica,HACIENDA SAN IGNACIO,occidente,Washed / Wet,7.33,7.42,7.25,7.42,7.42,7.33,7.42
-Honduras,La Cuchilla,"Centro, Lagunetillas - Ajuterique, Comayagua",Washed / Wet,7.67,7.5,7.25,7.5,7.5,7.33,7.42
+Honduras,La Cuchilla,Centro; Lagunetillas - Ajuterique; Comayagua,Washed / Wet,7.67,7.5,7.25,7.5,7.5,7.33,7.42
 Brazil,Fazenda Olhos Dagua,Sul de Minas,Natural / Dry,7.42,7.5,7.58,7.33,7.33,7.25,7.33
 Brazil,Fazenda Pedra Preta,MANTIQUEIRA / SUL DE MINAS,Natural / Dry,7.5,7.58,7.5,7.5,7.67,7.42,7.33
 Nicaragua,Finca San Felipe,Matagalpa,Natural / Dry,7.33,7.58,7.25,7.33,7.75,8.17,7.33
-Vietnam,Ea tan Cooperative,"Eatan Commune, Krong Nang District, Krong Nang Province",Pulped natural / honey,7.58,7.42,7.58,7.5,7.67,7.75,7.33
+Vietnam,Ea tan Cooperative,Eatan Commune; Krong Nang District; Krong Nang Province,Pulped natural / honey,7.58,7.42,7.58,7.5,7.67,7.75,7.33
 Vietnam,Gaia Farms,Lam Dong Province,Pulped natural / honey,7.5,7.5,7.25,7.42,7.42,7.42,7.33
 El Salvador,Agua Caliente,Apaneca - Ilamatepec,Washed / Wet,7.67,7.33,7.17,7.67,7.83,7.5,7.33
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.92,7.92,7.75,7.33,7.58,7.5,7.33
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.33,7.58,7.58,7.5,7.67,7.67,7.33
 Colombia,EL PRADO,HUILA,Washed / Wet,8,7.67,7.42,7.58,7.58,7.42,7.33
 Colombia,Escalera,Cauca,Washed / Wet,7.42,7.25,7.25,7.42,7.17,7.33,7.33
-Mexico,Finca San Jose,"Coatepec, Veracruz",Washed / Wet,7.58,7.42,7.25,7.25,7.5,7.33,7.33
+Mexico,Finca San Jose,Coatepec; Veracruz,Washed / Wet,7.58,7.42,7.25,7.25,7.5,7.33,7.33
 Mexico,Las Trincheras,Veracruz,Washed / Wet,7.67,7.42,7.5,7.5,7.67,7.42,7.33
 United States (Hawaii),Manny's Farm,Kona district of Big Island,Washed / Wet,7.75,7.42,7.33,7.5,7.33,7.5,7.33
 Thailand,Doi Lan,Chiang Rai,Natural / Dry,7.42,7.25,7.33,7.42,7.33,7.33,7.25
-Colombia,Finca Mallorca,"Caicedonia,Valle del Cauca",Washed / Wet,7.25,7.25,7.17,7.33,7,7.17,7.25
-El Salvador,"Rosario de Maria II, Area de Loma Alta","Volcan Chinchontepek, San Vicente, El Salvador",Natural / Dry,7.42,7.33,7.33,7.5,7.08,7,7.17
+Colombia,Finca Mallorca,Caicedonia;Valle del Cauca,Washed / Wet,7.25,7.25,7.17,7.33,7,7.17,7.25
+El Salvador,Rosario de Maria II; Area de Loma Alta,Volcan Chinchontepek; San Vicente; El Salvador,Natural / Dry,7.42,7.33,7.33,7.5,7.08,7,7.17
 El Salvador,Agua Caliente,Apaneca - Ilamatepec,Washed / Wet,7.33,7.67,7.25,7.67,7.83,7.42,7.17
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.33,7.42,7.25,7.33,7.5,7.42,7.17
 Thailand,Doi Tung Development Project,North of Thailand,Washed / Wet,7.25,7.25,7.42,7.25,7.42,7.42,7.17
@@ -119,7 +117,7 @@ Nicaragua,EXPORTADORA ATLANTIC S.A,,Washed / Wet,7.25,7.25,7.17,7.33,7.08,7.25,7
 Nicaragua,Sajonia Estate Coffee S.A.,Jinotega,Washed / Wet,7.42,7.17,7,7.08,7.42,7.17,7.17
 Brazil,Fazenda Conquista,Sul de Minas,Natural / Dry,7.17,7.17,6.92,7.17,7.42,7.17,7.08
 Nicaragua,Finca San Felipe,Matagalpa,Natural / Dry,7.33,7.08,6.75,7.17,7.42,7.17,7.08
-El Salvador,"Rosario de Maria II, Area de Menjivar","Volcan Chinchontepek, San Vicente, El Salvador",Natural / Dry,7.08,7.25,7.08,7.42,7.42,7.08,7
-Peru,Fundo La Libertad,"Chanchamayo, Lamerced",Washed / Wet,7.5,7.25,7.17,7.17,7.17,7.08,7
-El Salvador,"Rosario de Maria II, Area de La Pila","Volcan de San Vicente, La Paz, El Salvador",Natural / Dry,6.5,6.75,6.75,7.17,7.08,7,6.83
+El Salvador,Rosario de Maria II; Area de Menjivar,Volcan Chinchontepek; San Vicente; El Salvador,Natural / Dry,7.08,7.25,7.08,7.42,7.42,7.08,7
+Peru,Fundo La Libertad,Chanchamayo; Lamerced,Washed / Wet,7.5,7.25,7.17,7.17,7.17,7.08,7
+El Salvador,Rosario de Maria II; Area de La Pila,Volcan de San Vicente; La Paz; El Salvador,Natural / Dry,6.5,6.75,6.75,7.17,7.08,7,6.83
 Brazil,Walter Matter,Minas Gerais,Semi Washed,7.25,7.08,6.67,6.83,6.83,6.67,6.67

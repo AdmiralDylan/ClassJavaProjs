@@ -1,3 +1,4 @@
+
 public class Producer implements Comparable<Producer>{
     int ID;
     String countryOrigin;
@@ -6,7 +7,7 @@ public class Producer implements Comparable<Producer>{
     String cherryProcess;
     float aroma;
     float flavor;
-    float afterTaste;
+    float aftertaste;
     float acidity;
     float body;
     float balance;
@@ -19,7 +20,7 @@ public class Producer implements Comparable<Producer>{
     }
 
     public Producer(int iD, String countryOrigin, String farmName, String region, String cherryProcess, float aroma,
-            float flavor, float afterTaste, float acidity, float body, float balance, float overallScore) {
+            float flavor, float aftertaste, float acidity, float body, float balance, float overallScore) {
         ID = iD;
         this.countryOrigin = countryOrigin;
         this.farmName = farmName;
@@ -27,7 +28,7 @@ public class Producer implements Comparable<Producer>{
         this.cherryProcess = cherryProcess;
         this.aroma = aroma;
         this.flavor = flavor;
-        this.afterTaste = afterTaste;
+        this.aftertaste = aftertaste;
         this.acidity = acidity;
         this.body = body;
         this.balance = balance;
@@ -76,11 +77,11 @@ public class Producer implements Comparable<Producer>{
     public void setFlavor(float flavor) {
         this.flavor = flavor;
     }
-    public float getAfterTaste() {
-        return afterTaste;
+    public float getAftertaste() {
+        return aftertaste;
     }
-    public void setAfterTaste(float afterTaste) {
-        this.afterTaste = afterTaste;
+    public void setAftertaste(float aftertaste) {
+        this.aftertaste = aftertaste;
     }
     public float getAcidity() {
         return acidity;
@@ -109,9 +110,9 @@ public class Producer implements Comparable<Producer>{
     
         @Override
     public String toString() {
-        return "Producer [ID=" + ID + ", countryOrigin=" + countryOrigin + ", farmName=" + farmName + ", region="
+        return  farmName + " [ID=" + ID + ", countryOrigin=" + countryOrigin + ", farmName=" + farmName + ", region="
                 + region + ", cherryProcess=" + cherryProcess + ", aroma=" + aroma + ", flavor=" + flavor
-                + ", afterTaste=" + afterTaste + ", acidity=" + acidity + ", body=" + body + ", balance=" + balance
+                + ", aftertaste=" + aftertaste + ", acidity=" + acidity + ", body=" + body + ", balance=" + balance
                 + ", overallScore=" + overallScore + "]";
     }
 
