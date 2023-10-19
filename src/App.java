@@ -177,10 +177,28 @@ public class App{ //CommingInHot CSV Reader
 
     }
 
-    public static ArrayList<Producer> searchByString(String a,ArrayList<Producer> b){
-        ArrayList<Producer> filteredArr = 
+    public static ArrayList<Producer> searchByString(String key,ArrayList<Producer> arrList){
+        ArrayList<Producer> filteredArr = new ArrayList<Producer>();
+        boolean found = false;
 
-        return 
+        for(Producer a:arrList){
+            if(a.getCountryOrigin().toLowerCase().equals(a)){
+                filteredArr.add(a);
+                found = true;
+            }
+        }
+
+        if(!found){
+            Producer oops = new Producer();
+            filteredArr.add(oops);
+            for(Producer a:arrList){
+                if(a.getCountryOrigin().toLowerCase().contains((CharSequence) a)){
+                    filteredArr.add(a);
+                }
+            }
+        }
+
+        return filteredArr;
     }
 
     public static void printDB(ArrayList<Producer> arraylist){
