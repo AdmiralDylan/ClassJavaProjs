@@ -2,13 +2,14 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
 
 public class App{ //CommingInHot CSV Reader 
     //holding array of processes
-    public static String[] processes = new String[]{"Wet Hulling","Washed / Wet","Semi Washed","Pulped natural / honey","Natural / Dry","Honey;Mossto","Double Carbonic Maceration / Natural","Double Anaerobic Washed","Anaerobic 1000h"};
+    public static String[] processes = new String[]{"wet hulling","washed / wet","semi washed","pulped natural / honey","natural / dry","honey;mossto","double carbonic maceration / natural","double anaerobic washed","anaerobic 1000h"};
 
     public static void main(String[] args) throws Exception {
 
@@ -34,7 +35,7 @@ public class App{ //CommingInHot CSV Reader
             break;
         }
         Scanner input = new Scanner(System.in);//initialize input object
-
+        
         //initialize Arraylist
         ArrayList<Producer> producerDatabase = new ArrayList<Producer>();
         loadArray(producerDatabase);//Load the CSV into the Producer ArrayList database.
@@ -42,6 +43,10 @@ public class App{ //CommingInHot CSV Reader
         String in = input.nextLine();
 
         while(!(in.equals("exit"))){
+            if(in.equalsIgnoreCase("test")){
+                test(producerDatabase);
+                in = "exit";
+            }
             menuOption(in.toLowerCase(),producerDatabase);
             System.out.print("> ");
             in = input.nextLine();
@@ -106,7 +111,17 @@ public class App{ //CommingInHot CSV Reader
             System.out.println("all : Displays all farms with overall score, country of origin, and ID\n" +
             "from [Country] : Displays all farms from that country with ID, region, and overall score\n" +
             "[ID #] : Displays farm with that ID, name of farm, country of origin, and overall score\n" + 
-            "[ID #] -more : displays farm with that user ID, Farm name, region, cherry-processing,\n");
+            "[ID #] -more : displays farm with that ID, Farm name, region, cherry-processing\n Aroma score, flavor score, aftertaste score, acidity score, body score, balance score, and overall score\n" +
+            "exit : exits the application\n"+
+            "list processes : Lists all the cherry-processing methods\n" + 
+            "[Process name] : Lists all the farms which beans were processed using that method with, id, country of origin, and overall score\n" +
+            "best coffee : displays the 10 highest ranked overall farms, id, overall score, and country of origin\n" +
+            "best Aroma : displays the 10 highest ranked aroma farms, ids, aroma score, overall score, country of origin\n" +
+            "best acidity : displays the 10 highest ranked acidity farms, ids, acidity score, overall score, country of origin\n" +
+            "best flavor : displays the 10 highest ranked flavor farms, ids, flavor score, overall score, country of origin\n" +
+            "best aftertaste : displays the 10 highest ranked aftertaste farms, ids, aftertaste score, overall score, country of origin\n" +
+            "best body : displays the 10 highest ranked body farms, ids, body score, overall score, country of origin\n" +
+            "best balance : displays the 10 highest ranked balance farms, ids, balance score, overall score, country of origin\n");
         }else if(input.equals("exit")){
         }else if(input.equals("list processes")){
             for(String a:processes){
@@ -118,6 +133,13 @@ public class App{ //CommingInHot CSV Reader
             for(int i = arrList.size()-1; i>arrList.size()-11;i--){
                 System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
                 j++;
+            }
+        }else if(Arrays.asList(processes).contains(input)){
+            System.out.println("flag");
+            ArrayList<Producer> tempArr = searchByProcess(input, arrList);
+            System.out.println("Farms that use the process you searched for.\n ------------------------------------");
+            for(Producer a:tempArr){
+                System.out.println("{Farm Name : " + a.getFarmName() + "}" + "{ID : " + a.getID() + "}" + "{Country of Origin : " + a.getCountryOrigin() + "}" + "{Overall Score : " + a.getOverallScore()+"}");
             }
         }else if(input.equals("best aroma")){
             System.out.println("Presenting the 10 best coffees ordered by aroma score...\n--------------------------------------------------------------" );
@@ -166,7 +188,7 @@ public class App{ //CommingInHot CSV Reader
             String[] parseInput = input.split("from", 5); //Splitting the 'from' from the input
             String target = parseInput[1].trim();//passing the rest of the text from split string (Expected output to be a country)
             
-            ArrayList<Producer> tempProducerList = searchByString(target, arrList);
+            ArrayList<Producer> tempProducerList = searchByCountry(target, arrList);
 
             if(tempProducerList.get(0).getFarmName() == null && tempProducerList.size() > 1){
                 System.out.println("We didn't find exactly what you were looking for. But, we did not come back empty handed.");
@@ -210,7 +232,17 @@ public class App{ //CommingInHot CSV Reader
 
     }
 
-    public static ArrayList<Producer> searchByString(String key,ArrayList<Producer> arrList){
+    public static ArrayList<Producer> searchByProcess(String key,ArrayList<Producer> arrList){
+        ArrayList<Producer> filteredArr = new ArrayList<Producer>();
+        for(Producer a:arrList){
+            if(a.getCherryProcess().equalsIgnoreCase(key)){
+                filteredArr.add(a);
+            }
+        }
+        return filteredArr;
+    }
+
+    public static ArrayList<Producer> searchByCountry(String key,ArrayList<Producer> arrList){
         ArrayList<Producer> filteredArr = new ArrayList<Producer>();
         boolean found = false;
 
@@ -236,7 +268,6 @@ public class App{ //CommingInHot CSV Reader
     public static Producer findByID(int key, ArrayList<Producer> arrList){
         for(Producer a:arrList){
             if(key == a.getID()){
-                System.out.println("Flag");
                 return a;
             }
         }
@@ -246,6 +277,19 @@ public class App{ //CommingInHot CSV Reader
     public static void printDB(ArrayList<Producer> arraylist){
         for(int i = 0;i<arraylist.size();i++){
             System.out.println(arraylist.get(i));
+        }
+    }
+
+    public static void test(ArrayList<Producer> arrList){
+        String[] sampleIn = {"man","nam","listprocess","list processes","101","exit"};
+        for(int i = 0;i<sampleIn.length;i++){
+            System.out.println("Sample input : " + sampleIn[i]);
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            menuOption(sampleIn[i].toLowerCase(), arrList);
         }
     }
 }
