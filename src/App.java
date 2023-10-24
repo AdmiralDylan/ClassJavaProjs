@@ -13,13 +13,13 @@ public class App{ //CommingInHot CSV Reader
 
     public static void main(String[] args) throws Exception {
 
-        final int WAIT_TIME = 100;
+        final int WAIT_TIME = 500;
         //Welcome To Coming in Hot
-        while(true){//fake thread
-            cls();
-            System.out.println("Welcome to coming in hot...");
+        while(true){ //Starting thread
+            cls(); //Clears screen
+            System.out.println("Welcome to Coming in Hot...");
             System.out.println("We think you deserve the best cup of coffee possible. Lets help find that for you!\n\n\n");
-            System.out.println("To use this program please refer to our user guide.\n Type 'man' at anytime to see a full list of commands available to you");
+            System.out.println("To use this program please refer to our user guide.\n Type 'man' at anytime to see a full list of commands available to you\nTo acess the professor grading/student bonus point feature type in 'test'\n to test all the commands listed in the userguide.");
             for(int x = 0; x < 8; x++){
                 System.out.print("Loading"+"   \r");
                 Thread.sleep(WAIT_TIME);
@@ -121,7 +121,9 @@ public class App{ //CommingInHot CSV Reader
             "best flavor : displays the 10 highest ranked flavor farms, ids, flavor score, overall score, country of origin\n" +
             "best aftertaste : displays the 10 highest ranked aftertaste farms, ids, aftertaste score, overall score, country of origin\n" +
             "best body : displays the 10 highest ranked body farms, ids, body score, overall score, country of origin\n" +
-            "best balance : displays the 10 highest ranked balance farms, ids, balance score, overall score, country of origin\n");
+            "best balance : displays the 10 highest ranked balance farms, ids, balance score, overall score, country of origin\n" +
+            "bonus method not related to the execution of this program\n" + 
+            "test : uses valid and invalid cases of all the commands listed above (for bonus points)");
         }else if(input.equals("exit")){
         }else if(input.equals("list processes")){
             for(String a:processes){
@@ -135,7 +137,6 @@ public class App{ //CommingInHot CSV Reader
                 j++;
             }
         }else if(Arrays.asList(processes).contains(input)){
-            System.out.println("flag");
             ArrayList<Producer> tempArr = searchByProcess(input, arrList);
             System.out.println("Farms that use the process you searched for.\n ------------------------------------");
             for(Producer a:tempArr){
@@ -160,21 +161,21 @@ public class App{ //CommingInHot CSV Reader
             System.out.println("Presenting the 10 best coffees ordered by flavor score...\n--------------------------------------------------------------" );
             Collections.sort(arrList,new sortByBestFlavor());
             for(int i = arrList.size()-1; i>arrList.size()-11;i--){
-                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Acidity Score : " + arrList.get(i).getFlavor()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
+                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Flavor Score : " + arrList.get(i).getFlavor()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
                 j++;
             }
         }else if(input.equals("best aftertaste")){
             System.out.println("Presenting the 10 best coffees ordered by aftertaste score...\n--------------------------------------------------------------" );
             Collections.sort(arrList,new sortByBestAftertaste());
             for(int i = arrList.size()-1; i>arrList.size()-11;i--){
-                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Acidity Score : " + arrList.get(i).getAftertaste()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
+                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Aftertaste Score : " + arrList.get(i).getAftertaste()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
                 j++;
             }
         }else if(input.equals("best body")){
             System.out.println("Presenting the 10 best coffees ordered by body score...\n--------------------------------------------------------------" );
             Collections.sort(arrList,new sortByBestBody());
             for(int i = arrList.size()-1; i>arrList.size()-11;i--){
-                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Acidity Score : " + arrList.get(i).getBody()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
+                System.out.println(j + ": {Farm Name : " + arrList.get(i).getFarmName() + "}{ ID : " + arrList.get(i).getID() + "}{Body Score : " + arrList.get(i).getBody()+ "}{ Overall Score : " + arrList.get(i).getOverallScore() + "}{ Country of Origin : " + arrList.get(i).getCountryOrigin()+"}");
                 j++;
             }
         }else if(input.equals("best balance")){
@@ -206,6 +207,7 @@ public class App{ //CommingInHot CSV Reader
 
 
         }else if(input.contains("-more")){
+        try{
             String[] parseInput = input.split("-more", 5); //Splitting the 'from' from the input
             int targetID = Integer.parseInt(parseInput[0].trim());
             Producer tempProducer = findByID(targetID, arrList);
@@ -214,6 +216,10 @@ public class App{ //CommingInHot CSV Reader
             }else{
                 System.out.println("Specialty coffee producer with that ID does not exist or you might have typed it wrong. \nTry this EX: > 101 -more");
             }
+        } catch(Exception e){
+            System.out.println("Please enter a producer ID number when using -more");
+        }
+
         }else{
             try{
                 Producer tempProducer = findByID(Integer.parseInt(input.trim()), arrList);
@@ -276,20 +282,60 @@ public class App{ //CommingInHot CSV Reader
 
     public static void printDB(ArrayList<Producer> arraylist){
         for(int i = 0;i<arraylist.size();i++){
-            System.out.println(arraylist.get(i));
+            System.out.println(arraylist.get(i) + "\n");
+            
         }
     }
 
     public static void test(ArrayList<Producer> arrList){
-        String[] sampleIn = {"man","nam","listprocess","list processes","101","exit"};
+        String[] sampleIn = {"man",
+        "all",
+        "from United",
+        "from United States",
+        "from Colombia",
+        "from afwej",
+        "from 100",
+        "100",
+        "200",
+        "awfe",
+        "100 -more",
+        "202 -more",
+        "fawpoek -more",
+        "list processes",
+        "washed / wet",
+        "wet/washed",
+        "best coffee",
+        "best aroma",
+        "best acidity",
+        "best flavor",
+        "best aftertaste",
+        "best body",
+        "best balance"
+        };
         for(int i = 0;i<sampleIn.length;i++){
+            cls();
             System.out.println("Sample input : " + sampleIn[i]);
+            for(int j = 0;j<5;j++){
+
+                System.out.print(" \r");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.print(".\r");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            menuOption(sampleIn[i].toLowerCase(), arrList);
             try {
-                Thread.sleep(5000);
+                Thread.sleep(9000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            menuOption(sampleIn[i].toLowerCase(), arrList);
         }
     }
 }
